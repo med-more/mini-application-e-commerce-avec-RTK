@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    name: "Casque Audio Pro",
+    price: 299,
+    image: "/professional-headphones.jpg",
+    description: "Casque audio professionnel avec réduction de bruit active",
+  },
+  {
+    id: 2,
+    name: "Montre Intelligente",
+    price: 399,
+    image: "/smartwatch-lifestyle.png",
+    description: "Montre connectée avec suivi fitness et notifications",
+  },
+  {
+    id: 3,
+    name: "Clavier Mécanique",
+    price: 159,
+    image: "/mechanical-keyboard.png",
+    description: "Clavier mécanique RGB pour gaming et productivité",
+  },
+  {
+    id: 4,
+    name: "Souris Gaming",
+    price: 89,
+    image: "/gaming-mouse.png",
+    description: "Souris gaming haute précision avec LED personnalisables",
+  },
+  {
+    id: 5,
+    name: "Webcam 4K",
+    price: 179,
+    image: "/4k-webcam.png",
+    description: "Webcam 4K pour streaming et visioconférences",
+  },
+  {
+    id: 6,
+    name: "Enceinte Bluetooth",
+    price: 129,
+    image: "/bluetooth-speaker.jpg",
+    description: "Enceinte portable avec son 360° et batterie longue durée",
+  },
+  {
+    id: 7,
+    name: "Micro USB",
+    price: 199,
+    image: "/usb-microphone.jpg",
+    description: "Microphone USB professionnel pour podcasts et streams",
+  },
+  {
+    id: 8,
+    name: "Écran Portable",
+    price: 249,
+    image: "/portable-monitor.jpg",
+    description: "Écran portable 15 pouces Full HD avec USB-C",
+  },
+]
