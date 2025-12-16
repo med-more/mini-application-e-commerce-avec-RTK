@@ -24,6 +24,13 @@ const Navbar = ({ onCartClick }) => {
           </Link>
         </div>
       </div>
+
+      <button className="cart-button" onClick={onCartClick}>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M9 2L7 6H3L6 18H18L21 6H17L15 2H9Z" strokeWidth="2" />
+        </svg>
+        {totalItems > 0 && <span className="cart-badge">{totalItems}</span>}
+      </button>
     </nav>
   )
 }
