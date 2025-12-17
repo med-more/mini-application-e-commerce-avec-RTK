@@ -37,6 +37,15 @@ const ProductCard = ({ product, isInWishlist }) => {
           </svg>
         </button>
       </div>
+
+      <div className="product-info">
+        <h3 className="product-name">{product.name}</h3>
+        <p className="product-price">{product.price} DH</p>
+
+        <button className="add-to-cart-btn" onClick={handleAddToCart}>
+          Ajouter au panier
+        </button>
+      </div>
     </div>
   )
 }
