@@ -3,8 +3,12 @@ import { addToCart } from "../../redux/cartSlice"
 import { addToWishlist, removeFromWishlist } from "../../redux/wishlistSlice"
 import "./ProductCard.css"
 
-const ProductCard = () => {
+const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
+
+  const handleAddToCart = () =>{
+    dispatch(addToCart(product))
+  }
   return (
     <div>ProductCard</div>
   )
