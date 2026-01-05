@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import ProductCard from "../../components/ProductCard"
+import ProductCard from "../../components/ProductCard/ProductCard"
 import { products } from "../../data/products"
 import "./Catalogue.css"
 

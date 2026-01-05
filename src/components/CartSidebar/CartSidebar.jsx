@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux"
-import { removeFromCart, increaseQuantity, decreaseQuantity } from "../redux/cartSlice"
+import { removeFromCart, increaseQuantity, decreaseQuantity } from "../../redux/cartSlice"
 import "./CartSidebar.css"
 
 const CartSidebar = ({ isOpen, onClose }) => {
