@@ -4,7 +4,7 @@ import { addToCart } from "../../redux/cartSlice"
 import "./Wishlist.css"
 const Wishlist = () => {
 
-  const wishlistItems = useSelector((state) => state.Wishlist.items)
+  const wishlistItems = useSelector((state) => state.wishlist.items)
   const dispatch = useDispatch();
 
   const handleAddToCart = (product) =>{
